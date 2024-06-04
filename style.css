@@ -10,6 +10,7 @@
     --DarkCharcoal: hsl(24, 5%, 18%);
 
     --font-family-default: 'Outfit', sans-serif;
+    --font-family-default-heading: 'Young Serif', serif;
     
     --fw-regular: 400;
     --fw-semi-bold:600;
@@ -50,6 +51,7 @@
         border-radius: 30px;
         overflow: hidden;
         margin: 10px;
+        padding: 5px;
     }
 
     img {
@@ -58,10 +60,11 @@
     }
 
     h1 {
+        font-family: var(--font-family-default-heading);
         font-size: 2.3em;
         font-weight: var(--fw-bold);
         color: var(--DarkCharcoal);
-        margin: 35px;
+        margin: 40px;
     }
 
 
@@ -94,6 +97,7 @@
     }
 
     .ingredients h2 {
+        font-family: var(--font-family-default-heading);
         font-size: 1.8em;
         font-weight: var(--fw-bold);
         color: var(--Nutmeg);
@@ -117,6 +121,7 @@
     }
 
     .instructions h2 {
+        font-family: var(--font-family-default-heading);
         font-size: 1.8em;
         font-weight: var(--fw-bold);
         color: var(--Nutmeg);
@@ -131,6 +136,7 @@
     }
 
     .nutrition {
+        font-family: var(--font-family-default-heading);
         margin: 5px 20px;
         margin-bottom: 10px;
         padding: 5px 0;
@@ -144,8 +150,7 @@
     }
 
     p {
-        padding: 3px;
-        margin: 25px;
+        margin: 40px;
     }
 
     .passage {
