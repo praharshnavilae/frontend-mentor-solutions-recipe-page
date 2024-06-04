@@ -1,0 +1,182 @@
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --DarkGrey: hsl(15, 2%, 37%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+
+    --font-family-default: 'Outfit', sans-serif;
+    
+    --fw-regular: 400;
+    --fw-semi-bold:600;
+    --fw-bold: 700;
+    }
+    
+    /* Simple CSS reset */
+
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    * {
+        margin: 0;
+        font: inherit;
+    }
+    
+    img, svg {
+        display: block;
+        max-width: 100%;
+    }
+
+    body {
+        font-family: var(--font-family-default);
+        font-weight: var(--fw-regular);
+        background-color: var(--Eggshell);
+        font-size: 16px;
+        color: var(--WengeBrown);
+    
+        display: grid;
+        place-items: center;
+        min-height: 125vh;
+        
+    }
+
+    .receipe {
+        background-color: white;
+        border-radius: 30px;
+        overflow: hidden;
+        margin: 10px;
+    }
+
+    img {
+        margin: 40px;
+        border-radius: 30px;
+    }
+
+    h1 {
+        font-size: 2.3em;
+        font-weight: var(--fw-bold);
+        color: var(--DarkCharcoal);
+        margin: 35px;
+    }
+
+
+
+    .preptime {
+        background-color: var(--RoseWhite);
+        border-radius: 5%;
+        margin: 40px;
+        padding: 10px;
+        max-height: min-content;
+    }
+
+    .preptime h3  {
+        font-size: 1.2em;
+        color: var(--DarkRaspberry);
+        font-weight: var(--fw-semi-bold);
+        padding: 15px;
+    }
+
+    .preptime ul li {
+        padding: 5px 20px;
+        line-height: 1.5;
+        color: var(--DarkRaspberry);
+        font-weight: var(--fw-semi-bold);
+    }
+
+    .ingredients {
+        margin: 0 30px;
+        padding: 5px;
+    }
+
+    .ingredients h2 {
+        font-size: 1.8em;
+        font-weight: var(--fw-bold);
+        color: var(--Nutmeg);
+        padding: 15px;
+    }
+
+    .ingredients ul li {
+        padding: 8px 15px;
+        line-height: 1.5;
+        font-weight: var(--fw-semi-bold);
+    }
+
+    hr {
+        margin: 20px 5px;
+        border: 1px solid var(--LightGrey);
+    }
+
+    .instructions {
+        margin: 0 20px;
+        padding: 5px 0;
+    }
+
+    .instructions h2 {
+        font-size: 1.8em;
+        font-weight: var(--fw-bold);
+        color: var(--Nutmeg);
+        padding: 15px;
+    }
+
+    .instructions ol li {
+        padding: 7px;
+        line-height: 1.5;
+        color: var(--Nutmeg);
+        font-weight: var(--fw-semi-bold);
+    }
+
+    .nutrition {
+        margin: 5px 20px;
+        margin-bottom: 10px;
+        padding: 5px 0;
+    }
+ 
+    .nutrition h2 {
+        font-size: 1.8em;
+        font-weight: var(--fw-bold);
+        color: var(--Nutmeg);
+        padding: 5px 15px;
+    }
+
+    p {
+        padding: 3px;
+        margin: 25px;
+    }
+
+    .passage {
+        color: var(--DarkGrey);
+        font-weight: var(--fw-regular);
+    }
+
+    table, th, td {
+        margin: 15px;
+        padding: 15px 25px;
+        text-align: left;
+    }
+
+    table {
+        width: 88%;
+    }
+
+    td {
+        font-weight: var(--fw-semi-bold);
+        color: var(--Nutmeg);
+    }
+
+    .caption {
+        color: var(--DarkGrey);
+    }
+
+    th, td {
+        border-bottom: 1px solid var(--LightGrey);
+        border-collapse: collapse;
+    }
+
+    .skip {
+        border-style: none;
+    }
